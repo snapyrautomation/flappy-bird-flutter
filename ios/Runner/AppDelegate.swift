@@ -10,7 +10,7 @@ import UIKit
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
     let configuration = SnapyrConfiguration(writeKey: "iUP1MlMXSeilS20TUUavq5vygVI8mDMT")
-    configuration.snapyrEnvironment = SnapyrEnvironment.dev
+    // configuration.snapyrEnvironment = SnapyrEnvironment.dev
     configuration.trackApplicationLifecycleEvents = true
     configuration.recordScreenViews = true
     configuration.actionHandler = { msg in
